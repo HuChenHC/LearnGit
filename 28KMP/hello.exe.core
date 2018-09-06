@@ -1,0 +1,20 @@
+[main] hello 1000 (0) exception: trapped!
+[main] hello 1000 (0) exception: code 0xC0000005 at 0x40115A
+[main] hello 1000 (0) exception: ax 0x6B093788 bx 0x247FEA0 cx 0xA0310C8 dx 0x6B093701
+[main] hello 1000 (0) exception: si 0xA0310CB di 0xA0310CB bp 0x247FE64 sp 0x247FE18
+[main] hello 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] hello 1000 (0) stack: Stack trace:
+[main] hello 1000 (0) stack: frame 0: sp = 0x247F7A8, pc = 0x6100A2C3
+[main] hello 1000 (0) stack: frame 1: sp = 0x247F7E4, pc = 0x7733EAC2
+[main] hello 1000 (0) stack: frame 2: sp = 0x247F808, pc = 0x7733EA94
+[main] hello 1000 (0) stack: frame 3: sp = 0x247F8D0, pc = 0x7732C6B6
+[main] hello 1000 (0) stack: frame 4: sp = 0x247FE64, pc = 0x4012CA
+[main] hello 1000 (0) stack: frame 5: sp = 0x247FF00, pc = 0x61004402
+[main] hello 1000 (0) stack: frame 6: sp = 0x247FF48, pc = 0x61004420
+[main] hello 1000 (0) stack: frame 7: sp = 0x247FF54, pc = 0x41624A
+[main] hello 1000 (0) stack: frame 8: sp = 0x247FF64, pc = 0x40103A
+[main] hello 1000 (0) stack: frame 9: sp = 0x247FF80, pc = 0x76788484
+[main] hello 1000 (0) stack: frame 10: sp = 0x247FF94, pc = 0x77322FEA
+[main] hello 1000 (0) stack: frame 11: sp = 0x247FFDC, pc = 0x77322FBA
+[main] hello 1000 (0) stack: frame 12: sp = 0x247FFEC, pc = 0x0
+[main] hello 1000 (0) stack: End of stack trace
